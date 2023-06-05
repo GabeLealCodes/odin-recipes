@@ -1,0 +1,42 @@
+* {
+  font-family: 'Monospace';
+}
+
+h1 {
+  background: linear-gradient(to bottom right, #9167de, #c4bed0);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  
+}
+
+
+li {
+  color: #9167de;
+  font-weight: bold;
+}
+
+container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  max-height: 200px; /* add this line to limit the height of the image */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

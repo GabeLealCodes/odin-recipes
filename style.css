@@ -1,0 +1,13 @@
+h1 {
+  background: linear-gradient(to bottom right, #9167de, #c4bed0);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  
+}
+
+
+li {
+  color: #9167de;
+  font-weight: bold;
+}

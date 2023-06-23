@@ -1,5 +1,6 @@
 * {
   font-family: 'Monospace';
+  box-sizing: border-box;
 }
 
 h1 {
@@ -10,33 +11,56 @@ h1 {
   
 }
 
+h2 {
+  font-size: 2em;
+}
 
 li {
   color: #9167de;
   font-weight: bold;
 }
 
-container {
+.recipes {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   background-color: #f2f2f2;
-  padding: 20px;
-  margin: 10px;
+  padding: 1em 3em 2.5em;
+  margin: 3em;
   text-align: center;
+  border-radius: 10px;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
   margin-top: 10px;
   max-height: 200px; /* add this line to limit the height of the image */
+} */
+
+.box {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
 }
 
+.box img {
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+}
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
